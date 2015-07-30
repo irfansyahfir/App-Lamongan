@@ -1,0 +1,17 @@
+<template name="bawangMerah">
+    {{#contentFor "headerButtonLeft"}}
+        {{>ionNavBackButton path="cariPotensi"}}
+    {{/contentFor}}
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Bawang Merah</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+    
+    {{#ionContent}}
+    {{> mapBawangMerah}}
+    {{/ionContent}}
+    
+    {{/ionView}}
+    
+</template>
