@@ -65,6 +65,8 @@ Template.mapBawangMerah.onCreated(function() {
                                                    //icon: 'grad-icon.png'
                     });
 
+
+//aa
                       console.log(locations[i][1]);
                     var amsterdam=new google.maps.LatLng(locations[i][1],locations[i][2]);
                     new google.maps.Circle({
